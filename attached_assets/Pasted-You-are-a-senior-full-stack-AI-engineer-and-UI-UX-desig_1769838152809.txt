@@ -1,0 +1,156 @@
+You are a senior full-stack AI engineer and UI/UX designer.
+
+Build a PRODUCTION-READY, ERROR-FREE, fully working web application called:
+
+“AI-Based Fake News Detection Tool”
+
+This project is for a technical competition, so it must look modern, interactive, fast, and impressive.
+
+========================
+TECH STACK (MANDATORY)
+========================
+Frontend:
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion (animations)
+- Shadcn/UI components
+- Lucide Icons
+
+Backend:
+- Next.js API routes
+- Node.js
+
+Database (External):
+- MongoDB Atlas using Mongoose
+
+Authentication:
+- NextAuth (Credentials Provider)
+- JWT based auth
+- Secure password hashing with bcrypt
+
+AI / ML:
+- Use a HuggingFace transformer model OR OpenAI API
+- Task: Fake news / misinformation classification
+- Return probability score + label (Real / Fake / Suspicious)
+
+Deployment:
+- MUST be Vercel deployable
+- Environment variables used properly
+- No filesystem dependency
+- No server-only code in frontend
+
+========================
+CORE FEATURES
+========================
+
+1️⃣ LANDING + LOADING SCREEN
+- Full-screen animated loading screen on app start
+- Glowing gradient loader
+- App name animation
+- Auto redirect after loading
+
+2️⃣ AUTHENTICATION
+- Login Page
+- Signup Page
+- Guest Mode (no account required)
+- Proper validation + error handling
+- Clean UI
+- Session persistence
+
+3️⃣ DASHBOARD (AFTER LOGIN)
+- Paste news article OR headline
+- Optional URL input
+- “Analyze” button with loading animation
+- AI result card:
+  - Fake / Real / Suspicious
+  - Confidence percentage
+  - Explanation summary
+- History section (for logged-in users)
+
+4️⃣ DARK MODE / LIGHT MODE
+- Toggle button
+- System preference support
+- Smooth transition
+- Persist choice in localStorage
+
+5️⃣ RESPONSIVE UI
+- Mobile first
+- Tablet and desktop optimized
+- Smooth animations on hover & load
+
+6️⃣ ERROR HANDLING
+- No blank screens
+- Friendly error messages
+- API failure fallback
+- Proper try/catch everywhere
+
+7️⃣ DATABASE STRUCTURE
+- Users
+- Analysis history
+- Guest session tracking
+
+8️⃣ SECURITY
+- Password hashing
+- Input sanitization
+- Rate limiting (basic)
+- No secrets exposed in frontend
+
+========================
+PROJECT STRUCTURE
+========================
+Generate the FULL folder structure:
+
+/app
+  /(auth)
+    /login
+    /signup
+  /dashboard
+  /api
+    /auth
+    /analyze
+  /components
+  /lib
+  /models
+  /styles
+/public
+/tailwind.config.ts
+/next.config.js
+/package.json
+/.env.example
+/README.md
+
+========================
+DESIGN REQUIREMENTS
+========================
+- Dark futuristic theme inspired by AI dashboards
+- Neon accent colors
+- Glassmorphism cards
+- Subtle glowing borders
+- Smooth micro-interactions
+- Use the attached screenshot as inspiration for typography & spacing
+
+========================
+IMPORTANT RULES
+========================
+- The app MUST run without errors on first install
+- Provide complete working code (no pseudo-code)
+- No missing imports
+- No undefined variables
+- No TODOs
+- All API routes tested
+- All pages accessible
+- Clear comments where necessary
+- Follow best practices
+
+========================
+OUTPUT FORMAT
+========================
+1. Step-by-step explanation
+2. Complete folder structure
+3. Full code for every file
+4. .env.example with all required variables
+5. Vercel deployment steps
+6. Replit run instructions
+
+Start generating the project now.
